@@ -1,9 +1,12 @@
 var endFlipFoxkeh = function(){
-	var foxkeh = document.querySelector("#slidein-foxkeh img");
+	//機能の定義
+　　 var foxkeh = document.querySelector("#slidein-foxkeh img");
+	//#slidein-foxkeh img画像を表示する
 	foxkeh.removeEventListener("animationend", endFlipFoxkeh);
-
+    //
 	foxkeh.setAttribute("class", "");
 };
+
 
 var endSlideinFoxkehAndStartFlipFoxkeh = function(){
 	var foxkeh = document.querySelector("#slidein-foxkeh img");
